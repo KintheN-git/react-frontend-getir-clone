@@ -4,7 +4,7 @@ import { BsFillPersonFill, BsFillPersonPlusFill } from "react-icons/bs";
 const Navbar = () => {
   return (
     <nav className="bg-brand-color">
-      <div className="container mx-auto h-11 flex items-center justify-between">
+      <div className="container mx-auto px-[150px] h-11 flex items-center justify-between">
         <Link to="/">
           <img src="/src/assets/getir.svg" alt="Getir" />
         </Link>
