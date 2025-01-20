@@ -3,6 +3,8 @@ import googlePlay from "../assets/mobileBanner/googleplay-tr.svg";
 import appGalery from "../assets/mobileBanner/huawei-appgallery-tr.svg";
 import menus from "../api/footer.json";
 import Menu from "./ui/Menu";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa6";
+import { LuGlobe } from "react-icons/lu";
 const Footer = () => {
   return (
     <footer className="bg-white mt-10">
@@ -53,6 +55,49 @@ const Footer = () => {
           {menus.map((menu, index) => (
             <Menu key={index} {...menu} />
           ))}
+        </div>
+        <div className="flex justify-between items-center border-t border-gray-200 mt-6 py-6 ">
+          <div className="text-gray-700 text-xs flex gap-x-6">
+            © {new Date().getFullYear()} Getir
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative text-primary-brand-color before:content-[''] before:w-1 before:h-1 before:bg-gray-700 before:absolute before:-left-3 before:top-1/2 before:-translate-y-1/2 before:rounded-full"
+            >
+              Bilgi toplumu hizmetleri
+            </a>
+          </div>
+          <nav className="flex gap-x-4 items-center text-[#697488]">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 rounded-lg hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center transition-all"
+            >
+              <FaFacebook size={20} />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 rounded-lg hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center transition-all"
+            >
+              <FaTwitter size={20} />
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-8 h-8 rounded-lg hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center transition-all"
+            >
+              <FaInstagram size={20} />
+            </a>
+            <button className="transition-colors h-8 flex items-center gap-x-1  border border-gray-100 rounded-lg text-xs px-3 hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color">
+              <LuGlobe className="mr-2 size-4" />
+              Türkçe (TR)
+            </button>
+          </nav>
         </div>
       </div>
       <div></div>
