@@ -1,7 +1,7 @@
-import appStore from "../assets/mobileBanner/appstore-tr.svg";
-import googlePlay from "../assets/mobileBanner/googleplay-tr.svg";
-import appGalery from "../assets/mobileBanner/huawei-appgallery-tr.svg";
-import phoneLanding from "../assets/mobileBanner/phoneLanding.png";
+import appStore from "/assets/mobileBanner/appstore-tr.svg";
+import googlePlay from "/assets/mobileBanner/googleplay-tr.svg";
+import appGalery from "/assets/mobileBanner/huawei-appgallery-tr.svg";
+import phoneLanding from "/assets/mobileBanner/phoneLanding.png";
 const MobileAppBanner = () => {
   return (
     <section className="md:container md:mx-auto md:my-6">

@@ -1,6 +1,6 @@
-import appStore from "../assets/mobileBanner/appstore-tr.svg";
-import googlePlay from "../assets/mobileBanner/googleplay-tr.svg";
-import appGalery from "../assets/mobileBanner/huawei-appgallery-tr.svg";
+import appStore from "/assets/mobileBanner/appstore-tr.svg";
+import googlePlay from "/assets/mobileBanner/googleplay-tr.svg";
+import appGalery from "/assets/mobileBanner/huawei-appgallery-tr.svg";
 import menus from "../api/footer.json";
 import Menu from "./ui/Menu";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa6";

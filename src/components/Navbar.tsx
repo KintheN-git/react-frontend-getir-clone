@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="bg-brand-color w-full">
       <div className="container mx-auto h-16 md:h-11 flex items-center justify-center md:justify-between">
         <Link to="/">
-          <img src="/src/assets/getir.svg" alt="Getir" />
+          <img src="/assets/getir.svg" alt="Getir" />
         </Link>
 
         <div className="hidden md:flex ">

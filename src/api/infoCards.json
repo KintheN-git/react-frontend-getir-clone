@@ -1,20 +1,20 @@
 [
     {
       "id": 1,
-      "image": "/src/assets/infoCards/intro-in-minutes.svg",
+      "image": "/assets/infoCards/intro-in-minutes.svg",
       "title": "Her siparişine bir kampanya",
       "description":
         "Getir’de vereceğin her siparişe uygun bir kampanya bulabilirsin."
     },
     {
       "id": 1,
-      "image": "/src/assets/infoCards/intro-market-courier.svg",
+      "image": "/assets/infoCards/intro-market-courier.svg",
       "title": "Dakikalar içinde kapında",
       "description": "Getir’le siparişin dakikalar içinde kapına gelir."
     },
     {
       "id": 1,
-      "image": "/src/assets/infoCards/intro-discount.svg",
+      "image": "/assets/infoCards/intro-discount.svg",
       "title": "Binlerce çeşit mutluluk",
       "description": "Getir’de binlerce çeşit arasından seçimini yapabilirsin."
     }

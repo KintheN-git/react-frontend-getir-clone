@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="hidden flex-col items-start md:flex">
           <div className="h-[180px] w-[180px]">
             <img
-              src="../assets/bimutluluk.svg"
+              src="/assets/bimutluluk.svg"
               alt=""
               className="h-full w-full object-contain"
             />
