@@ -2,6 +2,16 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: "1rem",
+        sm: "0",
+        md: "4%",
+        lg: "6%",
+        xl: "8%",
+        "2xl": "10%",
+      },
+    },
     extend: {
       backgroundImage: {
         "mobile-app":

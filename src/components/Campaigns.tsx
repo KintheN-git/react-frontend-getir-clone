@@ -45,6 +45,29 @@ const Campaigns = () => {
     cssEase: "linear",
     nextArrow: <NextBtn />,
     prevArrow: <PrevBtn />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        },
+      },
+    ],
   };
 
   const [banners, setBanners] = useState<Banner[]>([]);
@@ -55,9 +78,9 @@ const Campaigns = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-[150px] py-8">
+    <div className="container mx-auto md:py-8">
       <h3 className="text-sm font-semibold mb-3 text-gray-700">Kampanyalar</h3>
-      <Slider {...settings} className="-mx-2">
+      <Slider {...settings} className="md:-mx-2">
         {banners.map((banner) => (
           <div key={banner.id}>
             <picture className="block px-2">

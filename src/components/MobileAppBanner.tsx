@@ -4,15 +4,15 @@ import appGalery from "../assets/mobileBanner/huawei-appgallery-tr.svg";
 import phoneLanding from "../assets/mobileBanner/phoneLanding.png";
 const MobileAppBanner = () => {
   return (
-    <section className="container mx-auto px-[150px] my-6">
-      <div className="bg-primary-brand-color bg-mobile-app rounded-lg flex justify-between items-center">
-        <div className="ml-12 text-white grid gap-y-3 ">
+    <section className="md:container md:mx-auto md:my-6">
+      <div className="bg-primary-brand-color bg-mobile-app md:rounded-lg h-80 flex md:justify-between justify-center items-center">
+        <div className="px-4 md:px-0 md:ml-12 text-white grid gap-y-3">
           <h2 className="text-3xl font-bold">Getir'i indir!</h2>
           <p className="text-base font-semibold">
             İstediğiniz ürünleri dakikalar içinde kapınıza <br /> getirelim.
           </p>
           <nav className="pt-5">
-            <ul className="flex gap-x-2">
+            <ul className="flex flex-wrap gap-x-2 gap-y-2 sm:flex-nowrap sm:flex-row sm:gap-x-2">
               <li>
                 <a
                   href="https://apps.apple.com/us/app/getir-groceries-food-beyond/id995280265"
@@ -49,7 +49,7 @@ const MobileAppBanner = () => {
             </ul>
           </nav>
         </div>
-        <picture className="!pb-0 pt-3">
+        <picture className="hidden lg:block !pb-0 pt-3 self-end ">
           <img src={phoneLanding} alt="phoneLanding" />
         </picture>
       </div>

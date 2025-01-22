@@ -18,10 +18,10 @@ const Favorites = () => {
 
   return (
     <section className="bg-white py-4">
-      <div className="container mx-auto px-[150px]">
+      <div className="container mx-auto">
         <h3 className="text-sm font-semibold mb-3 text-gray-700">Favoriler</h3>
 
-        <div className="grid grid-cols-8 gap-1 gap-y-10 bg-white rounded-lg">
+        <div className="grid grid-cols-3 2xl:grid-cols-8 xl:grid-cols-6 lg:grid-cols-4 md:grid-cols-3 gap-1 gap-y-10 bg-white rounded-lg">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}

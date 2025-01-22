@@ -14,12 +14,12 @@ const InfoCardSection = () => {
   }, []);
 
   return (
-    <section className="container mx-auto px-[150px] my-6">
-      <div className="grid grid-cols-3 gap-4">
+    <section className="container mx-auto my-6">
+      <div className="grid md:grid-cols-3 gap-4">
         {infoCards.map((card) => (
           <div
             key={card.id}
-            className="flex flex-col justify-center items-center pt-14 px-4 pb-10 bg-white  shadow-md"
+            className="flex flex-col justify-center items-center pt-14 px-4 pb-10 bg-white  shadow-md rounded-md"
           >
             <div className="w-[150px] h-[150px]">
               <img

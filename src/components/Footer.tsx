@@ -8,8 +8,8 @@ import { LuGlobe } from "react-icons/lu";
 const Footer = () => {
   return (
     <footer className="bg-white mt-10">
-      <div className="container mx-auto px-[150px]">
-        <div className="grid grid-cols-4 pt-10">
+      <div className="container mx-auto">
+        <div className="grid gap-y-6 md:grid-cols-2 lg:grid-cols-4 pt-10 px-4 md:px-0">
           <section>
             <nav>
               <ul className="grid gap-y-4">
@@ -56,7 +56,7 @@ const Footer = () => {
             <Menu key={index} {...menu} />
           ))}
         </div>
-        <div className="flex justify-between items-center border-t border-gray-200 mt-6 py-6 ">
+        <div className="flex flex-col md:flex-row gap-y-2 justify-between items-center border-t border-gray-200 mt-6 py-6 ">
           <div className="text-gray-700 text-xs flex gap-x-6">
             © {new Date().getFullYear()} Getir
             <a

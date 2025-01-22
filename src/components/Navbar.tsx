@@ -3,13 +3,13 @@ import { LuGlobe } from "react-icons/lu";
 import { BsFillPersonFill, BsFillPersonPlusFill } from "react-icons/bs";
 const Navbar = () => {
   return (
-    <nav className="bg-brand-color">
-      <div className="container mx-auto px-[150px] h-11 flex items-center justify-between">
+    <nav className="bg-brand-color w-full">
+      <div className="container mx-auto h-16 md:h-11 flex items-center justify-center md:justify-between">
         <Link to="/">
           <img src="/src/assets/getir.svg" alt="Getir" />
         </Link>
 
-        <div className="flex">
+        <div className="hidden md:flex ">
           <Link
             to="/campaigns"
             className="text-white text-sm  opacity-80 hover:opacity-100 transition-all flex items-center px-4 py-2"
