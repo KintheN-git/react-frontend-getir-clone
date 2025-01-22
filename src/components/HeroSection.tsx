@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="hidden flex-col items-start md:flex">
           <div className="h-[180px] w-[180px]">
             <img
-              src="/src/assets/bimutluluk.svg"
+              src="../assets/bimutluluk.svg"
               alt=""
               className="h-full w-full object-contain"
             />
@@ -22,7 +22,7 @@ const HeroSection = () => {
           </h3>
         </div>
         <div className="w-full  rounded-none bg-gray-50 md:p-6 md:w-[400px] md:rounded-lg  ">
-          <div className="flex justify-between items-center bg-white h-10 px-2 py-1 ">
+          <div className=" md:hidden flex justify-between items-center bg-white h-10 px-2 py-1 ">
             <div className="flex gap-x-3 items-center">
               <TiLocation size={20} className="text-primary-brand-color" />
               <div className="text-sm text-gray-storm font-semibold">
